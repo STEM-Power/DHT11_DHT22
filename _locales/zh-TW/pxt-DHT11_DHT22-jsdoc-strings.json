@@ -3,6 +3,6 @@
   "dht11_dht22.queryData": "從 DHT11/DHT22 傳感器讀取數據。 如果您使用的是 4 引腳/無 PCB 板版本，則需要將數據引腳上拉。 \n還建議在每次查詢之間等待 1 (DHT11) 或 2 (DHT22) 秒",
   "dht11_dht22.readData": "從 DHT11/DHT22 中讀取最新濕度/溫度數據",
   "dht11_dht22.readDataSuccessful": "判斷上次讀取是否成功 (數據校驗 ok)",
-  "dht11_dht22.selectTempType": "選擇溫度單位 (攝氏/華氏)\"",
+  "dht11_dht22.selectTempType": "選擇溫度單位 (攝氏/華氏)",
   "dht11_dht22.sensorrResponding": "確定傳感器在上次讀取中是否成功響應（未斷開連接等）"
 }

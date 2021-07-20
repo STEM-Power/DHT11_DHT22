@@ -1,5 +1,5 @@
 /**
- * MakeCode editor extension for DHT11 and DHT22 humidity/temperature sensors
+ * MakeCode editor extension for DHT11 and DHT22 humidity/temperature sensors.
  */
 
 enum DHTtype {
