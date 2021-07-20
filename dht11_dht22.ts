@@ -1,6 +1,5 @@
 /**
  * MakeCode editor extension for DHT11 and DHT22 humidity/temperature sensors
- * by Alan Wang
  */
 
 enum DHTtype {
@@ -25,7 +24,7 @@ enum tempType {
 }
 
 //% block="DHT11/DHT22" weight=100 color=#ff8f3f icon="\uf043"
-namespace dht11_dht22 {
+namespace DHT11_DHT22 {
 
     let _temperature: number = -999.0
     let _humidity: number = -999.0
