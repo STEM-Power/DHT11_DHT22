@@ -3,7 +3,7 @@
   "DHTtype.DHT22|block": "DHT22",
   "dataType.humidity|block": "濕度",
   "dataType.temperature|block": "溫度",
-  "dht11_dht22.queryData|block": "讀取 $DHT|信號引腳 $dataPin|引腳上拉 $pullUp|串行輸出 $serialOtput|讀取後等待 2 秒 $wait",
+  "dht11_dht22.queryData|block": "讀取 $DHT|信號引腳 $dataPin|引腳上拉 $pullUp|串行輸出 $serialOutput|讀取後等待 2 秒 $wait",
   "dht11_dht22.readDataSuccessful|block": "上次讀取成功?",
   "dht11_dht22.readData|block": "讀取 $data",
   "dht11_dht22.selectTempType|block": "溫度單位: $temp",

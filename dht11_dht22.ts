@@ -36,12 +36,12 @@ namespace DHT11_DHT22 {
     * Query data from DHT11/DHT22 sensor. If you are using 4 pins/no PCB board versions, you'll need to pull up the data pin. 
     * It is also recommended to wait 1 (DHT11) or 2 (DHT22) seconds between each query.
     */
-    //% block="Query $DHT|Data pin $dataPin|Pin pull up $pullUp|Serial output $serialOtput|Wait 2 sec after query $wait"
+    //% block="Query $DHT|Data pin $dataPin|Pin pull up $pullUp|Serial output $serialOutput|Wait 2 sec after query $wait"
     //% pullUp.defl=true
-    //% serialOtput.defl=false
+    //% serialOutput.defl=false
     //% wait.defl=true
     //% blockExternalInputs=true
-    export function queryData(DHT: DHTtype, dataPin: DigitalPin, pullUp: boolean, serialOtput: boolean, wait: boolean) {
+    export function queryData(DHT: DHTtype, dataPin: DigitalPin, pullUp: boolean, serialOutput: boolean, wait: boolean) {
 
         //initialize
         let startTime: number = 0
@@ -70,7 +70,7 @@ namespace DHT11_DHT22 {
         control.waitMicros(40)
         
         if (pins.digitalReadPin(dataPin) == 1) {
-            if (serialOtput) {
+            if (serialOutput) {
                 serial.writeLine(DHTstr + " not responding!")
                 serial.writeLine("----------------------------------------")
             }
@@ -126,7 +126,7 @@ namespace DHT11_DHT22 {
             }
 
             //serial output
-            if (serialOtput) {
+            if (serialOutput) {
                 serial.writeLine(DHTstr + " query completed in " + (endTime - startTime) + " microseconds")
                 if (_readSuccessful) {
                     serial.writeLine("Checksum ok")
