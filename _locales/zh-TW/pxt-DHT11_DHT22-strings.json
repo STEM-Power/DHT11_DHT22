@@ -1,0 +1,15 @@
+{
+  "DHTtype.DHT11|block": "DHT11",
+  "DHTtype.DHT22|block": "DHT22",
+  "dataType.humidity|block": "濕度",
+  "dataType.temperature|block": "溫度",
+  "dht11_dht22.queryData|block": "讀取 $DHT|信號引腳 $dataPin|引腳上拉 $pullUp|串行輸出 $serialOtput|讀取後等待 2 秒 $wait",
+  "dht11_dht22.readDataSuccessful|block": "上次讀取成功?",
+  "dht11_dht22.readData|block": "讀取 $data",
+  "dht11_dht22.selectTempType|block": "溫度單位: $temp",
+  "dht11_dht22.sensorrResponding|block": "上次讀取時傳感器響應嗎?",
+  "dht11_dht22|block": "DHT11/DHT22",
+  "tempType.celsius|block": "攝氏 (*C)",
+  "tempType.fahrenheit|block": "華氏 (*F)",
+  "{id:category}Dht11_dht22": "Dht11_dht22"
+}
